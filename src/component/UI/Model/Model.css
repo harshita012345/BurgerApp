@@ -1,0 +1,31 @@
+.Model {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    width: 40%;
+    border: 2px #eee;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.3);
+    padding: 16px;
+    left: 30%;
+    top: 20%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+}
+
+.list {
+    text-align: left
+}
+
+.heading {
+    text-align: left;
+    font-weight: bold;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 10px;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+    margin: 2rem;
+    margin-left: -2rem;
+}
